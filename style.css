@@ -88,6 +88,7 @@ button {
 /* Media query for screens smaller than 768px (mobile) */
 @media (max-width: 767.98px) {
     .container {
+        height: 100%;
         flex-direction: column;
     }
 
@@ -95,6 +96,8 @@ button {
     .sec2,
     .sec3,
     .sec4 {
+        background-color: black;
+        height: 100%;
         width: 100%;
         padding: 0 20px;
     }
